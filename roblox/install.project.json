@@ -1,0 +1,12 @@
+{
+  "name": "BonkInstall",
+  "tree": {
+    "$className": "Folder",
+    "BonkShared": { "$path": "src/shared" },
+    "BonkServer": {
+      "$path": "src/server",
+      "$attributes": { "StudioMock": false }
+    },
+    "BonkClient": { "$path": "src/client" }
+  }
+}
